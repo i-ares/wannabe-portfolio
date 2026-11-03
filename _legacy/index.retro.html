@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The People vs. Soham Bhar</title>
+<meta name="description" content="A courtroom portfolio. The projects take the stand. The verdict is yours.">
+<meta name="theme-color" content="#120f26">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The People vs. Soham Bhar">
+<meta property="og:description" content="A courtroom portfolio. The projects take the stand, the evidence is real, and you are the jury.">
+<meta property="og:image" content="og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preload" href="assets/PressStart2P.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header id="top">
+    <div class="plaque"><span class="k">CASE 04-11-2026</span><span class="t">THE PEOPLE vs. SOHAM BHAR</span></div>
+    <div id="meterWrap" aria-label="Jury meter"><span>JURY</span><div id="meter"><i></i></div></div>
+    <div class="btns">
+      <button id="objBtn" class="btn red" hidden>OBJECTION!</button>
+      <button id="idxBtn" class="btn amber">CASE INDEX</button>
+      <button id="recBtn" class="btn">COURT RECORD</button>
+      <button id="muteBtn" class="btn">SFX ON</button>
+    </div>
+  </header>
+
+  <main id="stage" aria-live="polite"><noscript><p style="padding:24px;font-size:14px;line-height:2">This portfolio is a small interactive courtroom and needs JavaScript. Contact: sohambhar.sb@gmail.com</p></noscript></main>
+
+  <section id="dialog" hidden>
+    <div id="portrait"></div>
+    <div class="dbody">
+      <div id="speaker"></div>
+      <div id="text"></div>
+      <div id="choices"></div>
+    </div>
+    <button id="next" class="btn amber">NEXT &#9654;</button>
+  </section>
+
+  <aside id="record" hidden>
+    <div class="rh"><b>COURT RECORD</b><button id="recClose" class="btn">X</button></div>
+    <div id="recList"></div>
+  </aside>
+
+  <div id="toast" role="status"></div>
+  <div id="modal" hidden></div>
+  <div class="crt"></div><div class="vig"></div>
+</div>
+<script src="content.js"></script>
+<script src="files.js"></script>
+<script src="app.js"></script>
+<script src="dossier.js"></script>
+</body>
+</html>
