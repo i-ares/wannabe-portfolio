@@ -1,0 +1,7 @@
+RECONSTRUCTED PROMPTS (illustrative, not a real recording)
+
+> Build a dark, dense F1 timing terminal where every panel can be dragged and resized.
+
+> Replay any race since 2018 with a scrub bar, and keep the track map half the screen.
+
+> Let two telemetry panels follow two different drivers at the same time.

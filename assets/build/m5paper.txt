@@ -1,0 +1,7 @@
+RECONSTRUCTED PROMPTS (illustrative, not a real recording)
+
+> Turn a bare e-ink board into a reader that opens epub books from an sd card.
+
+> Only redraw what changed, so page turns are quick and the screen stays sharp.
+
+> Add wifi and a keyboard I write myself, and remember the chapter I was on.
