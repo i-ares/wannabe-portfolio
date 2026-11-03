@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The People vs. Soham Bhar</title>
+<meta name="description" content="A courtroom portfolio. The projects take the stand, the evidence is real, and you are the jury.">
+<meta name="theme-color" content="#eceff2">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The People vs. Soham Bhar">
+<meta property="og:description" content="A courtroom portfolio. The projects take the stand, the evidence is real, and you are the jury.">
+<meta property="og:image" content="og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@75..150,300..900&family=Figtree:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css?v=1793710379">
+<link rel="stylesheet" href="evidence.css?v=1793710379">
+</head>
+<body>
+<div id="app">
+  <header id="top">
+    <div class="brand">The People <i>vs.</i> Soham Bhar</div>
+    <div id="meterWrap" aria-label="Jury progress"><span>Jury</span><div id="meter"><i></i></div></div>
+    <div class="btns">
+      <button id="objBtn" class="tbtn hot" type="button" hidden>Objection!</button>
+      <button id="idxBtn" class="tbtn" type="button">Case index</button>
+      <button id="recBtn" class="tbtn" type="button">Court record</button>
+      <button id="muteBtn" class="tbtn" type="button">Sound on</button>
+    </div>
+  </header>
+
+  <main id="stage" aria-live="polite"><noscript><p style="padding:24px;font-size:16px;line-height:1.6">This portfolio is a small interactive courtroom and needs JavaScript. Contact: sohambhar.sb@gmail.com</p></noscript></main>
+
+  <section id="dialog" hidden aria-label="Speaker">
+    <div class="in">
+      <div id="portrait" aria-hidden="true"></div>
+      <div class="body"><div id="speaker"></div><div id="text"></div><div id="choices"></div></div>
+      <button id="next" class="btn amber" type="button">Continue &rarr;</button>
+    </div>
+  </section>
+
+  <aside id="record" hidden>
+    <div class="rh"><span>Court record</span><button id="recClose" class="tbtn" type="button">Close</button></div>
+    <div id="recList"></div>
+  </aside>
+
+  <div id="toast" role="status"></div>
+  <div id="modal" hidden></div>
+</div>
+<script src="content.js?v=1793710379"></script>
+<script src="files.js?v=1793710379"></script>
+<script src="app.js?v=1793710379"></script>
+<script src="dossier.js?v=1793710379"></script>
+</body>
+</html>
